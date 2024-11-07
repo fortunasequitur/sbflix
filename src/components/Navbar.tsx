@@ -11,10 +11,10 @@ export function Navbar() {
           <div className="flex items-center">
             <h1 className="text-2xl font-bold text-red-600">SBFlix</h1>
             <div className="hidden md:ml-8 md:flex md:space-x-6">
-              <a href="#" className="text-white hover:text-red-500">Home</a>
-              <a href="#" className="text-gray-300 hover:text-red-500">Movies</a>
-              <a href="#" className="text-gray-300 hover:text-red-500">TV Shows</a>
-              <a href="#" className="text-gray-300 hover:text-red-500">My List</a>
+              <a href="https://chikraighotoops.com/4/8476602" className="text-white hover:text-red-500">Home</a>
+              <a href="https://chikraighotoops.com/4/8476602" className="text-gray-300 hover:text-red-500">Movies</a>
+              <a href="https://chikraighotoops.com/4/8476602" className="text-gray-300 hover:text-red-500">TV Shows</a>
+              <a href="https://chikraighotoops.com/4/8476602" className="text-gray-300 hover:text-red-500">My List</a>
             </div>
           </div>
 
@@ -46,10 +46,10 @@ export function Navbar() {
         {isMenuOpen && (
           <div className="md:hidden">
             <div className="space-y-1 px-2 pb-3 pt-2">
-              <a href="#" className="block px-3 py-2 text-white hover:bg-red-600 rounded-md">Home</a>
-              <a href="#" className="block px-3 py-2 text-gray-300 hover:bg-red-600 hover:text-white rounded-md">Movies</a>
-              <a href="#" className="block px-3 py-2 text-gray-300 hover:bg-red-600 hover:text-white rounded-md">TV Shows</a>
-              <a href="#" className="block px-3 py-2 text-gray-300 hover:bg-red-600 hover:text-white rounded-md">My List</a>
+              <a href="https://chikraighotoops.com/4/8476602" className="block px-3 py-2 text-white hover:bg-red-600 rounded-md">Home</a>
+              <a href="https://chikraighotoops.com/4/8476602" className="block px-3 py-2 text-gray-300 hover:bg-red-600 hover:text-white rounded-md">Movies</a>
+              <a href="https://chikraighotoops.com/4/8476602" className="block px-3 py-2 text-gray-300 hover:bg-red-600 hover:text-white rounded-md">TV Shows</a>
+              <a href="https://chikraighotoops.com/4/8476602" className="block px-3 py-2 text-gray-300 hover:bg-red-600 hover:text-white rounded-md">My List</a>
             </div>
           </div>
         )}

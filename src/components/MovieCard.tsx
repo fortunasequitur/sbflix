@@ -8,9 +8,10 @@ interface MovieCardProps {
   imageUrl: string;
   genre: string;
   duration: string;
+  playUrl: string;
 }
 
-export function MovieCard({ title, rating, year, imageUrl, genre, duration }: MovieCardProps) {
+export function MovieCard({ title, rating, year, imageUrl, genre, duration, playUrl }: MovieCardProps) {
   return (
     <div className="group relative overflow-hidden rounded-lg transition-transform hover:scale-105">
       <img
@@ -36,9 +37,12 @@ export function MovieCard({ title, rating, year, imageUrl, genre, duration }: Mo
           <p className="mt-1 text-sm text-gray-400">{genre}</p>
           
           <div className="mt-4 flex space-x-2">
-            <button className="rounded-full bg-red-600 p-2 hover:bg-red-700">
-              <Play className="h-4 w-4" />
-            </button>
+      <button
+        className="rounded-full bg-red-600 p-2 hover:bg-red-700"
+        onClick={() => window.location.href = playUrl}
+      > 
+        <Play className="h-4 w-4" />
+      </button>
             <button className="rounded-full bg-gray-800 p-2 hover:bg-gray-700">
               <Plus className="h-4 w-4" />
             </button>

@@ -6,84 +6,94 @@ import { Footer } from './components/Footer';
 
 const trendingMovies = [
   {
-    title: "Heretic",
+    title: "Heretic (2024)",
     rating: 7.2,
     year: 2024,
-    imageUrl: "https://images.unsplash.com/photo-1505699261378-c372af38134c?auto=format&fit=crop&w=1770&q=80",
+    imageUrl: "https://m.media-amazon.com/images/M/MV5BMzFiMWM4YjAtY2Y3Yi00MDIzLTk0N2MtYTAwNGM3ZmMwODhlXkEyXkFqcGc@._V1_QL75_UX190_CR0,0,190,281_.jpg",
     genre: "Horror, Thriller",
-    duration: "1h 50m"
+    duration: "1h 50m",
+    playUrl: "https://chikraighotoops.com/4/8476602",
   },
   {
-    title: "Red One",
+    title: "Red One (2024)",
     rating: 6.7,
     year: 2024,
-    imageUrl: "https://images.unsplash.com/photo-1513297887119-d46091b24bfa?auto=format&fit=crop&w=1770&q=80",
+    imageUrl: "https://m.media-amazon.com/images/M/MV5BZmFkMjE4NjQtZTVmZS00MDZjLWE2ZmEtZTkzODljNjhlNWUxXkEyXkFqcGc@._V1_QL75_UX190_CR0,0,190,281_.jpg",
     genre: "Action, Adventure, Comedy",
-    duration: "2h 3m"
+    duration: "2h 3m", // Tambahkan koma di sini
+    playUrl: "https://chikraighotoops.com/4/8476602",
   },
   {
-    title: "Paddington in Peru",
+    title: "Paddington in Peru (2024)",
     rating: 7.8,
     year: 2024,
-    imageUrl: "https://images.unsplash.com/photo-1552083375-1447ce886485?auto=format&fit=crop&w=1770&q=80",
+    imageUrl: "https://m.media-amazon.com/images/M/MV5BNzMyNWZlYmYtZDgxMC00ZTU3LWFiYzctNGE0ZDc0OTlhZTRlXkEyXkFqcGc@._V1_QL75_UX190_CR0,0,190,281_.jpg",
     genre: "Adventure, Comedy, Family",
-    duration: "1h 46m"
+    duration: "1h 46m", // Tambahkan koma di sini
+    playUrl: "https://chikraighotoops.com/4/8476602",
   },
   {
-    title: "Gladiator II",
+    title: "Gladiator II (2024)",
     rating: 7.5,
     year: 2024,
-    imageUrl: "https://images.unsplash.com/photo-1608889335941-32ac5f2041b9?auto=format&fit=crop&w=1770&q=80",
+    imageUrl: "https://m.media-amazon.com/images/M/MV5BOGU1ZjcyZmItZDZiMC00YzQ5LWE2NzEtMjNlYzE4MWIxNGYyXkEyXkFqcGc@._V1_.jpg",
     genre: "Action, Drama, History",
-    duration: "2h 28m"
+    duration: "2h 28m", // Tambahkan koma di sini
+    playUrl: "https://chikraighotoops.com/4/8476602",
   },
   {
-    title: "Blitz",
+    title: "Blitz (2024)",
     rating: 6.5,
     year: 2024,
-    imageUrl: "https://images.unsplash.com/photo-1569098272587-7be1e4fb8187?auto=format&fit=crop&w=1770&q=80",
+    imageUrl: "https://m.media-amazon.com/images/M/MV5BMGI5ZjBkNDktOGMyMC00ZmYzLThmYjctYmViMmVkNDY3ZjExXkEyXkFqcGc@._V1_QL75_UX190_CR0,2,190,281_.jpg",
     genre: "Drama, War",
-    duration: "2h"
+    duration: "2h", // Tambahkan koma di sini
+    playUrl: "https://chikraighotoops.com/4/8476602",
   },
   {
-    title: "Wicked",
+    title: "Wicked (2024)",
     rating: 8.0,
     year: 2024,
-    imageUrl: "https://images.unsplash.com/photo-1519074069444-1ba4fff66d16?auto=format&fit=crop&w=1770&q=80",
+    imageUrl: "https://m.media-amazon.com/images/M/MV5BOWMwYjYzYmMtMWQ2Ni00NWUwLTg2MzAtYzkzMDBiZDIwOTMwXkEyXkFqcGc@._V1_QL75_UX190_CR0,10,190,281_.jpg",
     genre: "Fantasy, Musical",
-    duration: "2h 40m"
+    duration: "2h 40m", // Tambahkan koma di sini
+    playUrl: "https://chikraighotoops.com/4/8476602",
   },
   {
-    title: "Moana 2",
+    title: "Moana 2 (2024)",
     rating: 8.2,
     year: 2024,
-    imageUrl: "https://images.unsplash.com/photo-1545579133-99bb5ab189bd?auto=format&fit=crop&w=1770&q=80",
+    imageUrl: "https://m.media-amazon.com/images/M/MV5BZDUxNThhYTUtYjgxNy00MGQ4LTgzOTEtZjg1YTU5NTcwNThlXkEyXkFqcGc@._V1_QL75_UX190_CR0,0,190,281_.jpg",
     genre: "Animation, Adventure",
-    duration: "1h 40m"
+    duration: "1h 40m", // Tambahkan koma di sini
+    playUrl: "https://chikraighotoops.com/4/8476602",
   },
   {
-    title: "Y2K",
+    title: "Y2K (2024)",
     rating: 6.8,
     year: 2024,
-    imageUrl: "https://images.unsplash.com/photo-1533677960219-eab5a4ed9258?auto=format&fit=crop&w=1770&q=80",
+    imageUrl: "https://m.media-amazon.com/images/M/MV5BYTQxNWJmYTEtZTMzMS00MDk1LTlkMTgtYmRhOTRmMjdkOGRiXkEyXkFqcGc@._V1_QL75_UY281_CR0,0,190,281_.jpg",
     genre: "Comedy, Drama",
-    duration: "1h 33m"
+    duration: "1h 33m", // Tambahkan koma di sini
+    playUrl: "https://chikraighotoops.com/4/8476602",
   },
   {
-    title: "Kraven the Hunter",
+    title: "Kraven the Hunter (2024)",
     rating: 7.4,
     year: 2024,
-    imageUrl: "https://images.unsplash.com/photo-1557682250-33bd709cbe85?auto=format&fit=crop&w=1770&q=80",
+    imageUrl: "https://m.media-amazon.com/images/M/MV5BZDU0YTI5ODAtN2NmMS00YTg3LTgyNDItN2RmOWEzOTkzZjcyXkEyXkFqcGc@._V1_QL75_UX190_CR0,0,190,281_.jpg",
     genre: "Action, Adventure",
-    duration: "2h 10m"
+    duration: "2h 10m", // Tambahkan koma di sini
+    playUrl: "https://chikraighotoops.com/4/8476602",
   },
   {
-    title: "Mufasa: The Lion King",
+    title: "Mufasa: The Lion King (2024)",
     rating: 7.9,
     year: 2024,
-    imageUrl: "https://images.unsplash.com/photo-1534188753412-3e26d0d618d6?auto=format&fit=crop&w=1770&q=80",
+    imageUrl: "https://m.media-amazon.com/images/M/MV5BNjg1YzI5ZmQtZjZkOC00ZDMzLWI4YjYtMmY5MzZjYWE3YzhjXkEyXkFqcGc@._V1_QL75_UX190_CR0,0,190,281_.jpg",
     genre: "Animation, Adventure, Drama",
-    duration: "2h"
+    duration: "2h", // Tambahkan koma di sini
+    playUrl: "https://chikraighotoops.com/4/8476602",
   },
   {
     title: "Wallace & Gromit: Vengeance Most Fowl",
@@ -113,17 +123,17 @@ function App() {
         <section>
           <h2 className="mb-8 text-2xl font-bold">Trending Now</h2>
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
-            {trendingMovies.slice(0, 5).map((movie, index) => (
-              <MovieCard key={index} {...movie} />
+            {trendingMovies.slice(0, 5).map((movie) => (
+              <MovieCard key={movie.title} {...movie} /> // Gunakan title sebagai key
             ))}
           </div>
         </section>
 
         <section className="mt-16">
-          <h2 className="mb-8 text-2xl font-bold">Coming Soon</h2>
+          <h2 className="mb-8 text-2xl font-bold">Watch Early</h2>
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
-            {trendingMovies.slice(5, 10).map((movie, index) => (
-              <MovieCard key={`coming-${index}`} {...movie} />
+            {trendingMovies.slice(5, 10).map((movie) => (
+              <MovieCard key={movie.title} {...movie} /> // Gunakan title sebagai key
             ))}
           </div>
         </section>
